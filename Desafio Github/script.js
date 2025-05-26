@@ -28,15 +28,15 @@ function buscarRepos() {
       const isLinkedIn = blog.includes("linkedin.com");
 
       perfilDiv.innerHTML = `
-        <div class="Doce">
+        <div class="purê">
           <img src="${user.avatar_url}" width="80" style="border-radius:50%">
         </div>
-        <section class="hot">
+        <section class=" pão">
           <strong>${user.name || user.login}</strong><br>
           <p>${user.bio || "Bio não informada"}</p>
           <div class="icone">
 
-          <div class="bolo">
+          <div class="dechocolate">
             <img src="img/people.png" width 10/>
           </div>
           <p> Seguidores: ${user.followers}</p>
